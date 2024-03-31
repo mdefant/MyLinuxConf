@@ -1,0 +1,1 @@
+This folder contains all my dotfiles where I’ve made changes to settings.

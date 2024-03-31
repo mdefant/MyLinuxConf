@@ -1,0 +1,1 @@
+This folder contains a List of all installed packages and their versions.

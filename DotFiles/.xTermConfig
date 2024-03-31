@@ -1,0 +1,24 @@
+!This file is read by X-Server when it starts up --> use it to change defaults for the xTerm terminals
+
+!default color (will be overwritten later)
+xterm*background: black
+xterm*foreground: green
+
+!font settings
+!xterm*faceName: MesloLGS NF
+
+!patched font with icons(nerdfonts are bugged with my setup)
+xterm*faceName: NotoSansMNerdFontMono-Regular
+
+!borders in terminal
+xterm*faceSize: 15
+xterm*termName: screen-256color
+xterm*borderWidth: 0
+xterm*internalBorder: 40
+xterm*externalBorder: 40
+
+!enable copy & paste in terminal
+*VT100.translations: #override \n\
+	Shift Ctrl <KeyPress> C: copy-selection(CLIPBOARD) \n\
+	Shift Ctrl <KeyPress> V: insert-selection(CLIPBOARD)
+
