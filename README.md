@@ -1,0 +1,2 @@
+This repository is designed to be an effortless solution for restoring my system after unexpected crashes while keeping it tidy and organized. With carefully curated configurations, settings, and scripts, I aim to streamline the process of recovering my operating system to its optimal state quickly and efficiently. By maintaining this repository, I ensure a smooth restoration process, minimizing downtime and preserving the cleanliness of my system.
+UNDER CONSTRUCTION
